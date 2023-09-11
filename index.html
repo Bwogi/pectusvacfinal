@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- head start  -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,11 +20,15 @@
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
     <title>
-      Pectus Vacuum Device | Pediatric Medical Device Marketing and Distribution
-      LLC.
+      Pectus Vac | A non-surgical option for the correction of pectus excavatum
+      condition using suction pressure.
     </title>
   </head>
+  <!-- head end  -->
+
+  <!-- body start -->
   <body class="text-gray-800 antialiased">
+    <!-- menu start  -->
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
     >
@@ -35,8 +40,13 @@
         >
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Tailwind Starter Kit</a
+            href="/"
+          >
+            <img
+              style="width: 100px"
+              src="/assets/img/pectvac-front-transparent.png"
+              alt=""
+            /> </a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
@@ -49,20 +59,20 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
-            <li class="flex items-center">
+          <ul class="">
+            <!-- <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
+                href="#"
                 ><i
                   class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
                 ></i>
                 Docs</a
               >
-            </li>
+            </li> -->
           </ul>
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <li class="flex items-center">
+            <!-- <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
@@ -91,30 +101,38 @@
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Star</span></a
               >
-            </li>
+            </li> -->
             <li class="flex items-center">
-              <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                type="button"
-                style="transition: all 0.15s ease 0s"
-              >
-                <i class="fas fa-arrow-alt-circle-down"></i> Download
-              </button>
+              <a href="#order-now">
+                <button
+                  class="bg-white text-xs uppercase px-6 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  type="button"
+                  style="
+                    transition: all 0.15s ease 0s;
+                    background-color: #79b558;
+                    color: white;
+                  "
+                >
+                  Order Now
+                </button>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- menu end  -->
+
+    <!-- main content start  -->
     <main>
+      <!-- hero main  -->
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
         style="min-height: 75vh"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="
-            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
-          "
+          style="background-image: url('/assets/img/pectvac-front.jpg')"
         >
           <span
             id="blackOverlay"
@@ -125,13 +143,18 @@
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
-                <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                <h1
+                  class="text-white font-semibold text-5xl"
+                  style="color: #33c2d5"
+                >
+                  <span class="text-white">The</span>
+                  Pectus Vac <span class="text-white">device</span>
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                <p class="mt-4 text-lg text-white">
+                  A medical device used in the treatment of a condition called
+                  pectus excavatum. <span>Pectus Vac</span> is a non-surgical
+                  option for the correction of the pectus excavatum condition
+                  using suction pressure.
                 </p>
               </div>
             </div>
@@ -157,7 +180,12 @@
           </svg>
         </div>
       </div>
-      <section class="pb-20 bg-gray-300 -mt-24">
+      <!-- hero main end  -->
+
+      <!-- glay test  -->
+
+      <!-- next gray section with the three small boxes start -->
+      <!-- <section class="pb-20 bg-gray-300 -mt-24">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap">
             <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -170,10 +198,10 @@
                   >
                     <i class="fas fa-award"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Awarded Agency</h6>
+                  <h6 class="text-xl font-semibold">Soft & Strong</h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Divide details about your product or agency work into parts.
-                    A paragraph describing a feature will be enough.
+                    It is softer on the skin and it is self-retaining. It is
+                    also flexible and durable.
                   </p>
                 </div>
               </div>
@@ -188,10 +216,14 @@
                   >
                     <i class="fas fa-retweet"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Free Revisions</h6>
+                  <h6 class="text-xl font-semibold">
+                    Easy Correction Tracking
+                  </h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Keep you user engaged by providing meaningful information.
-                    Remember that by this time, the user is curious.
+                    The simple measuring parts allows you to follow the progress
+                    of correction of the Excavatum. With built in Bluetooth
+                    technology connects to your phone using the Bell Control
+                    App.
                   </p>
                 </div>
               </div>
@@ -239,19 +271,17 @@
                 faster. You can change the text and images and you're good to
                 go. Just make sure you enable them first via JavaScript.
               </p>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                class="font-bold text-gray-800 mt-8"
+              <a href="#" class="font-bold text-gray-800 mt-8"
                 >Check Tailwind Starter Kit!</a
               >
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-green-500"
               >
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+                  src="/assets/img/photo1.jpg"
                   class="w-full align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
@@ -264,7 +294,7 @@
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      class="text-pink-600 fill-current"
+                      class="text-green-500 fill-current"
                     ></polygon>
                   </svg>
                   <h4 class="text-xl font-bold text-white">
@@ -280,8 +310,11 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="relative py-20">
+      </section> -->
+      <!-- next gray section with the three small boxes end -->
+
+      <!-- section with main image and content start  -->
+      <section class="relative">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
@@ -302,7 +335,106 @@
           </svg>
         </div>
         <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
+          <div class="items-center flex flex-wrap" id="order-now">
+            <!-- <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+              />
+            </div> -->
+            <!-- <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+                >
+                  <i class="fas fa-rocket text-xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold">A growing company</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  The extension comes with three pre-built pages to help you get
+                  started faster. You can change the text and images and you're
+                  good to go.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          ><i class="fas fa-fingerprint"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">
+                          Carefully crafted components
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          ><i class="fab fa-html5"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Amazing page examples</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          ><i class="far fa-paper-plane"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Dynamic components</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- section with main image and content end -->
+      <!-- <iframe
+        src="https://uploads.knightlab.com/storymapjs/bb618f923a71a0b1be656e0d2aa780a0/humanities-out-there-1/index.html"
+        frameborder="0"
+        width="100%"
+        height="800"
+      ></iframe> -->
+      <!-- glay test end  -->
+      <!-- another section with main image and content start  -->
+      <!-- <section class="relative py-20">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap" id="">
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
               <img
                 alt="..."
@@ -310,7 +442,6 @@
                 src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
               />
             </div>
-
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
                 <div
@@ -371,13 +502,20 @@
             </div>
           </div>
         </div>
+      </section> -->
+      <!-- another section with main image and content end -->
+
+      <!-- shopify section start -->
+      <section id="buy" class="pt-10 px-4">
+        <div
+          id="product-component-1694089529485"
+          class="rounded-lg px-5 py-10"
+        ></div>
       </section>
-      <section>
-        <div class="">
-          <div id="product-component-1694089529485"></div>
-        </div>
-      </section>
-      <section class="pt-20 pb-48">
+      <!-- shopify section end -->
+
+      <!-- staff section start -->
+      <!-- <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
@@ -528,8 +666,10 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="pb-20 relative block bg-gray-900">
+      </section> -->
+      <!-- staff section end -->
+
+      <!-- <section class="pb-20 relative block bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px"
@@ -666,14 +806,20 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="relative bg-gray-300 pt-8 pb-6">
-      <div
+    <!-- main content end  -->
+
+    <!-- footer start  -->
+    <!-- <footer
+      class="relative pt-8 pb-6"
+      style="background-color: #33c2d5; border: #33c2d5"
+    > -->
+    <!-- <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px"
-      >
-        <svg
+      > -->
+    <!-- <svg
           class="absolute bottom-0 overflow-hidden"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
@@ -683,12 +829,13 @@
           y="0"
         >
           <polygon
-            class="text-gray-300 fill-current"
+            class="text-blue-300 fill-current"
+            style="background-color: #33c2d5"
             points="2560 0 2560 100 0 100"
           ></polygon>
-        </svg>
-      </div>
-      <div class="container mx-auto px-4">
+        </svg> -->
+    <!-- </div> -->
+    <!-- <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4">
             <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
@@ -811,9 +958,66 @@
             </div>
           </div>
         </div>
+      </div> -->
+    <!-- </footer> -->
+    <!-- foooter end  -->
+    <!-- new footer  -->
+    <footer class="w-full bottom-0 pb-6" style="background-color: #79b558">
+      <div class="container mx-auto px-4">
+        <hr class="mb-6 border-b-1 border-transparent" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4">
+            <div class="text-sm text-white font-semibold py-1">
+              Copyright © 2023
+              <a
+                href="https://www.creative-tim.com"
+                class="text-white hover:text-gray-400 text-sm font-semibold py-1"
+                >Pect Vac&reg;. All rights reserved</a
+              >
+            </div>
+          </div>
+          <div class="w-full md:w-8/12 px-4">
+            <!-- <ul class="flex flex-wrap list-none md:justify-end justify-center">
+              <li>
+                <a
+                  href="https://www.creative-tim.com"
+                  class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                  >Creative Tim</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.creative-tim.com/presentation"
+                  class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://blog.creative-tim.com"
+                  class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                  class="text-white hover:text-gray-400 text-sm font-semibold block py-1 px-3"
+                  >MIT License</a
+                >
+              </li>
+            </ul> -->
+          </div>
+        </div>
       </div>
     </footer>
+    <!-- new footer end -->
   </body>
+  <!-- body end  -->
+
+  <!--   Core JS Files   -->
   <script>
     function toggleNavbar(collapseID) {
       document.getElementById(collapseID).classList.toggle("hidden");
@@ -978,4 +1182,11 @@
     })();
     /*]]>*/
   </script>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("flex");
+    }
+  </script>
+  <!-- Core JS Files end -->
 </html>
